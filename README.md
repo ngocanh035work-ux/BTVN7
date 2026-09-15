@@ -56,20 +56,22 @@ Nội dung cấu hình trong file `.env`:
 ```env
 PIPELINE_NAME=banking_bigquery_elt
 
-# Thông tin cơ sở dữ liệu nguồn PostgreSQL
+--Cấu hình Postgre
 SOURCE_DB_HOST=VM_EXTERNAL_IP
-SOURCE_DB_PORT=15432
+SOURCE_DB_PORT=
 SOURCE_DB_NAME=core_banking
 SOURCE_DB_USER=de_source_exporter
-SOURCE_DB_PASSWORD=FO0ijzt1IBitSflqU4do9qMk
+SOURCE_DB_PASSWORD=
 
-# Cấu hình Google Cloud BigQuery
-GOOGLE_APPLICATION_CREDENTIALS="/home/ngocannh/Documents/Key/bigquery/JDE/biproject1/jde-big-project-1-d58c1b221c9a.json"
-BQ_PROJECT_ID=your_gcp_project_id_here
+--Cấu hình Bigquery
+GOOGLE_APPLICATION_CREDENTIALS=
+BQ_PROJECT_ID=
 BQ_LOCATION=asia-southeast1
-BQ_RAW_DATASET=banking_raw
-BQ_CLEAN_DATASET=banking_clean
+BQ_RAW_DATASET=banking_bronze
 BQ_OPS_DATASET=banking_ops
+
+HASH_SALT=replace-with-a-long-random-secret
+SOURCE_SYSTEM=CORE_BANKING
 
 HASH_SALT=replace-with-a-long-random-secret
 SOURCE_SYSTEM=CORE_BANKING
