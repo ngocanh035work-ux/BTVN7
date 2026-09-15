@@ -1,8 +1,15 @@
-.env
+# Môi trường ảo và bộ nhớ đệm
 venv/
 __pycache__/
 *.pyc
-logs/
+
+# File chứa mật khẩu, token bảo mật (Rất quan trọng)
+.env
 *.json
+
+# Thư mục chứa log hệ thống
+logs/
+
+# Ngoại lệ: Giữ lại các file mẫu cấu hình và chính file gitignore
 !.env.example
 !.gitignore
