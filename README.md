@@ -93,3 +93,4 @@ python main.py
    `[Thời gian] | [Mức độ] | [Tên module phát log] | [Nội dung tin nhắn]`
 3. **Metadata Enrichment:** Tự động tiêm thêm trường `src_system` vào cấu trúc bảng đích phục vụ cho việc truy vết nguồn gốc dữ liệu (Data Lineage) ở tầng phân tích sau này.
 # BTVN7-y-d-li-u-l-n-t-ng-Bronze
+# BTVN7
