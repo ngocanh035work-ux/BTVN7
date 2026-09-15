@@ -1,6 +1,6 @@
 # Banking BigQuery ELT Pipeline (BTVN7)
 
-Dự án cung cấp một pipeline ELT tự động bằng Python nhằm trích xuất (**Extract**) dữ liệu từ cơ sở dữ liệu nguồn PostgreSQL (Core Banking), kiểm tra chất lượng dữ liệu cơ bản và nạp (**Load**) toàn bộ các bảng tự động tìm thấy lên tầng Bronze (**banking_raw**) trên Google Cloud BigQuery.
+Dự án cung cấp một pipeline ELT tự động bằng Python nhằm trích xuất (**Extract**) dữ liệu từ cơ sở dữ liệu nguồn PostgreSQL (Core Banking) và nạp (**Load**) toàn bộ các bảng tự động tìm thấy lên tầng Bronze (**banking_raw**) trên Google Cloud BigQuery.
 
 ## 📁 Cấu trúc thư mục (Project Structure)
 
